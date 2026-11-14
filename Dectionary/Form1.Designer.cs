@@ -138,12 +138,12 @@
             dgvSaved.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvSaved.EnableHeadersVisualStyles = false;
             dgvSaved.Location = new Point(579, 129);
+            dgvSaved.MultiSelect = false;
             dgvSaved.Name = "dgvSaved";
-            dgvSaved.ReadOnly = true;
             dgvSaved.RowHeadersVisible = false;
             dgvSaved.RowHeadersWidth = 51;
-            dgvSaved.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvSaved.Size = new Size(309, 48);
+            dgvSaved.SelectionMode = DataGridViewSelectionMode.CellSelect;
+            dgvSaved.Size = new Size(309, 82);
             dgvSaved.TabIndex = 6;
             // 
             // lblEbglish
@@ -280,10 +280,9 @@
             dgvWords.Location = new Point(12, 103);
             dgvWords.MultiSelect = false;
             dgvWords.Name = "dgvWords";
-            dgvWords.ReadOnly = true;
             dgvWords.RowHeadersVisible = false;
             dgvWords.RowHeadersWidth = 51;
-            dgvWords.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvWords.SelectionMode = DataGridViewSelectionMode.CellSelect;
             dgvWords.Size = new Size(480, 320);
             dgvWords.TabIndex = 19;
             // 
